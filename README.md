@@ -48,13 +48,13 @@ The pipeline is designed for **credit scoring applications**, providing both **a
 
   **Client 10683**  
   <p align="center">
-    <img src="Client #10683.png" width="800" alt="Client 10683 SHAP Force Plot">
+    <img src="Client 10683.png" width="800" alt="Client 10683 SHAP Force Plot">
   </p>  
   RevolvingUtilizationOfUnsecuredLines_woe and age_woe strongly reduced the predicted risk, while DebtRatio_woe had a minor positive impact. The prediction score was well below the base value, indicating a low probability of default.
 
   **Client 8652**  
   <p align="center">
-    <img src="Client #8652.png" width="800" alt="Client 8652 SHAP Force Plot">
+    <img src="Client 8652.png" width="800" alt="Client 8652 SHAP Force Plot">
   </p>  
   age_woe, DebtRatio_woe, and RevolvingUtilizationOfUnsecuredLines_woe all contributed to increasing the predicted risk. The prediction score was above the base value, suggesting a higher-than-average default probability.
 

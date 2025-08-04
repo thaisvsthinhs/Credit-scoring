@@ -1,5 +1,15 @@
 # Credit Scoring with LightGBM, WOE & IV Analysis
 
+## 📑 Table of Contents
+- [📌 Overview](#-overview)
+- [📂 Dataset](#-dataset)
+- [🔄 Workflow](#-workflow)
+- [📊 Model Evaluation](#-model-evaluation)
+- [🔍 Interpretability & Insights](#-interpretability--insights)
+  - [Individual Predictions](#individual-predictions)
+  - [Global Feature Importance](#global-feature-importance)
+- [📎 References](#-references)
+
 ## 📌 Overview
 This project implements a complete **credit risk prediction pipeline** using the Kaggle [*Give Me Some Credit*](https://www.kaggle.com/c/GiveMeSomeCredit) dataset.  
 It combines **Weight of Evidence (WOE)** encoding, **Information Value (IV)** analysis, and a **LightGBM** model to achieve high predictive performance while ensuring interpretability through **SHAP values**.  
